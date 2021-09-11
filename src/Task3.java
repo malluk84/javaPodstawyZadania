@@ -12,16 +12,16 @@ public class Task3 {
         System.out.print("Please insert second digit: ");
         int y = scanner.nextInt();
 
-        boolean result = false;
+        boolean result;
 
-        result = x > y ? true : false;
-        System.out.println("If x is greater than y: " + result);
+        result = x > y;
+        System.out.println("If 1st number is greater than 2nd number: " + result);
 
-        result = x * 3 > y ? true : false;
-        System.out.println("If x * 3 is greater than y: " + result);
+        result = x * 3 > y;
+        System.out.println("If 1st * 3 is greater than 2nd: " + result);
 
         result = (y++ < ++x) && (--x < y++);
-        System.out.println("If y++ is smaller than ++x and --x is smaller than y++: " + result);
+        System.out.println("If 2nd++ is smaller than ++1st and --1st is smaller than y++: " + result);
 
         result = (x * y) % 2 == 0;
         System.out.println("If x * y is even: " + result);
