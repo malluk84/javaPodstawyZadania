@@ -10,11 +10,17 @@ public class Task5 {
         int result = 0;
 
 
-        for (int i = x; i <= y; i++) {
-            result += i;
-        }
+        result = getResult(x, y, result);
 
 
         return result;
     }
+
+    private static int getResult(int x, int y, int result) {
+        for (int i = x; i <= y; i++) {
+            result += i;
+        }
+        return result;
+    }
 }
+
