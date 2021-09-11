@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Task3 {
-    private static Scanner scanner = new Scanner(System.in);
+
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -21,9 +21,9 @@ public class Task3 {
         System.out.println("If 1st * 3 is greater than 2nd: " + result);
 
         result = (y++ < ++x) && (--x < y++);
-        System.out.println("If 2nd++ is smaller than ++1st and --1st is smaller than y++: " + result);
+        System.out.println("If 2nd++ is smaller than ++1st and --1st is smaller than 2nd++: " + result);
 
         result = (x * y) % 2 == 0;
-        System.out.println("If x * y is even: " + result);
+        System.out.println("If 1st number * 2nd number is even: " + result);
     }
 }
