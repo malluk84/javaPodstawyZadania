@@ -10,7 +10,7 @@ public class Task4 {
     }
     private static String replaceChar(String text) {
         String result = text.replace(",","-STOP-").replace(".", "-STOP-");
-        
+
         return result;
     }
 }
