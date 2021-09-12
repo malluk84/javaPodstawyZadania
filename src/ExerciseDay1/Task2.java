@@ -1,3 +1,5 @@
+package ExerciseDay1;
+
 public class Task2 {
     private static final String DECIMAL = "decimal";
     private static final String HEXA = "hexadecimal";

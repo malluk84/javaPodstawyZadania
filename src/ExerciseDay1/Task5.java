@@ -1,3 +1,5 @@
+package ExerciseDay1;
+
 public class Task5 {
     public static void main(String[] args) {
         System.out.println(sumOfTheSequence(4, 11));
