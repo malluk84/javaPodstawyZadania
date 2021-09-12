@@ -10,7 +10,7 @@ public class Task8 {
     private static final int DIFF_UPPER_AND_LOWER = 32;
 
     public static void main(String[] args) {
-        System.out.println("Result: " + replaceChars("Ala mA kOta!"));
+        System.out.println("Result is: " + replaceChars("Ala mA kOta!"));
     }
 
     private static String replaceChars(String input) {
