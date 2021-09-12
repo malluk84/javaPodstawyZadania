@@ -2,7 +2,7 @@ package ExerciseDay2;
 
 public class Task14 {
     public static void main(String[] args) {
-        int arrays[] = {12, -7, 19, -5};
+        int[] arrays = {12, -7, 19, -5};
         int lengthNegativeDigit = getLengthNegativDigit(arrays);
         int[] negativeDigits = negativeArrays(lengthNegativeDigit, arrays);
 
@@ -14,7 +14,7 @@ public class Task14 {
         }
 
     }
-    private static int getLengthNegativDigit(int arrays[]) {
+    private static int getLengthNegativDigit(int[] arrays) {
         int counter = 0;
         for (int element : arrays) {
             if (element > 0) {
@@ -23,7 +23,7 @@ public class Task14 {
         }
         return counter;
     }
-    private static int[] negativeArrays(int length, int arrays[]) {
+    private static int[] negativeArrays(int length, int[] arrays) {
         int[] newArray = new int[length];
         for (int i = 0, j = 0; i < arrays.length; i++) {
             if(arrays[i] < 0) {

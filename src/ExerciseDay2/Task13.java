@@ -11,28 +11,28 @@ public class Task13 {
         System.out.println("Sum of elements of array: " + sum);
 
     }
-    private static int getMinValue(int tab[]) {
+    private static int getMinValue(int[] tab) {
         int minValue = Integer.MAX_VALUE;
-        for (int i = 0; i < tab.length; i++) {
-            if (minValue > tab[i]) {
-                minValue = tab[i];
+        for (int j : tab) {
+            if (minValue > j) {
+                minValue = j;
             }
         }
         return minValue;
     }
-    private static int getMaxValue(int tab[]) {
+    private static int getMaxValue(int[] tab) {
         int maxValue = Integer.MIN_VALUE;
-        for (int i = 0; i < tab.length; i++) {
-            if (maxValue < tab[i]) {
-                maxValue = tab[i];
+        for (int j : tab) {
+            if (maxValue < j) {
+                maxValue = j;
             }
         }
         return maxValue;
     }
-    private static int getSum(int tab[]) {
+    private static int getSum(int[] tab) {
         int sum = 0;
-        for (int i = 0; i < tab.length; i++) {
-            sum += tab[i];
+        for (int j : tab) {
+            sum += j;
         }
         return sum;
     }
